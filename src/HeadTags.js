@@ -23,7 +23,6 @@ function HeadTags(props) {
       <meta property="og:type" key="og:type" content="website" />
       <meta property="og:description"  key="og:description" content={metaDescription}/>
       <meta property="og:url" content={url} />
-      <meta property="og:image" key="og:image" content={img}/>  
     </Helmet>
   ) ;
 }
