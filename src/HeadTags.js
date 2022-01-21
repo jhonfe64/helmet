@@ -13,11 +13,11 @@ function HeadTags(props) {
   return(
     <Helmet>
       <title>{title}</title>
-      <meta property="og:title" content={title} />
+      <meta property="og:title" content={title && title} />
       <meta property="og:type" content="website" />
-      <meta property="og:description" content={metaDescription}/>
-      <meta property="og:url" content={url} />
-      <meta property="og:image" content={img}/>  
+      <meta property="og:description" content={metaDescription && metaDescription}/>
+      <meta property="og:url" content={url && url} />
+      <meta property="og:image" content={img && img}/>
     </Helmet>
   ) ;
 }

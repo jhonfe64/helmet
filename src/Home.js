@@ -9,6 +9,10 @@ function Home() {
      
       />
       <h1>pagina del Home</h1>
+      <a target="blank" href={`https://css-tricks.com`}
+            data-layout="button_count">
+            <h4>Compartir en facebook</h4>
+      </a>
     </div>
   );
 }
